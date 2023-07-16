@@ -11,7 +11,7 @@ function Nav() {
             />
           </button>
         </div>
-        <div className="flex flex-col py-3 text-white ">
+        <div className="flex-col hidden py-3 text-white lg:flex ">
           <ul className="flex items-center">
             <li className="mx-4">
               <button className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium">

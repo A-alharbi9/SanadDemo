@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="flex flex-col justify-around text-white bg-blue-700 h-[30rem] pb-4">
+    <footer className="flex flex-col justify-around text-white bg-blue-700 h-[50rem] lg:h-[30rem] pb-4">
       <div className="flex flex-col items-center">
         <div className="flex w-[80%]">
           <div className="flex flex-col flex-grow-[3]">
@@ -54,7 +54,7 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="flex-1 ">
+          <div className="flex-1">
             <p className="mb-5 font-bold">تابعنا</p>
             <div className="font-light ">
               <button className="flex my-3">
@@ -81,8 +81,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center text-center">
-        <p className="w-[78rem] font-light">
+      <div className="flex justify-center text-center lg:mt-6">
+        <p className=" w-[90%] lg:w-[78rem] font-light">
           الاستثمار أداء عالية المخاطر قد يتعرض لها المستثمرين تتعثر الجهة طالبة
           لتمويل عند سداد التزاماتها أو فقدان راس مال المستثمر، لذا تعمل سند
           المالية على الحد من هذه المخاطر عبر الدارسة المفصلة والدقيقة لمنشأت
@@ -90,14 +90,26 @@ function Footer() {
           شركائها أو موظفيها مسؤولية أي نوع من الخسائر المالية.
         </p>
       </div>
-      <div className="flex items-center justify-around ">
+      <div className="flex flex-col lg:flex-row items-center justify-around lg:justify-around h-52 lg:h-72 w-[95%]">
         <div>
-          <img src="../assets/white_logo.svg" alt="logo" className="w-full" />
+          <img
+            src="../assets/white_logo.svg"
+            alt="logo"
+            className="w-36 lg:w-[90%]"
+          />
         </div>
-        Copyright &copy; Sanad Capital Company
-        <div className="flex">
-          <img src="../assets/review_bureau.svg" alt="review_bureau_logo" />
-          <img src="../assets/CMA.svg" alt="CMA_logo" className="mr-2" />
+        <p className="text-sm">Copyright &copy; Sanad Capital Company</p>
+        <div className="flex items-center justify-around lg:justify-center w-[45%] lg:w-auto mt-3 lg:mt-0">
+          <img
+            src="../assets/review_bureau.svg"
+            alt="review_bureau_logo"
+            className="w-12 h-12 lg:w-10 lg:h-10"
+          />
+          <img
+            src="../assets/CMA.svg"
+            alt="CMA_logo"
+            className="mt-2 lg:w-[10rem] lg:mr-2 w-52 lg:mt-0"
+          />
         </div>
       </div>
     </footer>
