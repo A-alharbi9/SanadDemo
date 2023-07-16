@@ -7,10 +7,10 @@ function Hero() {
           <p className=" w-[55%] py-2 my-2 text-center font-light">
             تساعد استراتيجيات العلامات التجارية المبهجة من الناحية الجمالية على
             الوصول بفعالية إلى المزيد من العملاء. كما أنهم يضمنون أن الرحلة
-            الشاملة مع منتجاتهم أو خدماتهم تلبي النتائج المرجوة
+            الشاملة مع منتجاتهم أو خدماتهم تلبي النتائج المرجوة.
           </p>
 
-          <button className="w-40 h-16 text-xl rounded-full bg-emerald-500">
+          <button className="w-40 h-16 text-xl rounded-full bg-emerald-500 hover:bg-emerald-400">
             تقدم الآن
           </button>
         </div>

@@ -1,55 +1,82 @@
 function Footer() {
   return (
-    <footer className="relative flex flex-col justify-around text-white bg-blue-700 h-[30rem] pb-2">
-      <div className="absolute w-screen bg-blue-700 h-28 -top-24">
-        <span></span>
-      </div>
-      <div className="flex flex-col items-center ">
-        <div className="flex">
-          <div className="flex flex-col px-2 py-2  w-[40rem]">
+    <footer className="flex flex-col justify-around text-white bg-blue-700 h-[30rem] pb-4">
+      <div className="flex flex-col items-center">
+        <div className="flex w-[80%]">
+          <div className="flex flex-col flex-grow-[3]">
             <p className="mb-4 font-bold">الصفحات</p>
-            <div className="flex ">
-              <ul className="flex-1 mx-4">
-                <li>الصفحة الرئيسية</li>
-                <li>من نحن</li>
-                <li>مستثمر</li>
-                <li>طالب تمويل</li>
-                <li>تواصل معنا</li>
-                <li>الأسئلة الشائعة</li>
-                <li>التسجيل</li>
+            <div className="flex font-light">
+              <ul className="flex-1">
+                <li>
+                  <button className="cursor-pointer">الصفحة الرئيسية</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer">من نحن</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer">مستثمر</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer">طالب تمويل</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer">تواصل معنا</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer">الأسئلة الشائعة</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer">التسجيل</button>
+                </li>
               </ul>
               <ul className="flex-1 ">
-                <li>تسجيل الدخول</li>
-                <li>ابدأ الاستثمار</li>
-                <li>الوظائف</li>
-                <li>مهنة واحدة</li>
-                <li>مركز المساعدة</li>
-                <li>فريق العمل</li>
-                <li>الشروط والاحكام</li>
+                <li>
+                  <button className="cursor-pointer ">تسجيل الدخول</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer ">ابدأ الاستثمار</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer ">الوظائف</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer ">مهنة واحدة</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer ">مركز المساعدة</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer ">فريق العمل</button>
+                </li>
+                <li>
+                  <button className="cursor-pointer ">الشروط والاحكام</button>
+                </li>
               </ul>
             </div>
           </div>
-          <div>
+          <div className="flex-1 ">
             <p className="mb-5 font-bold">تابعنا</p>
-            <div className="flex my-3">
-              <img src="../assets/Facebook_logo.svg" alt="Facebook_logo" />
-              <p className="mr-2">Facebook</p>
-            </div>
-            <div className="flex my-3">
-              <img src="../assets/Twitter_logo.svg" alt="Twitter_logo" />
-              <p className="mr-2">Twitter</p>
-            </div>
-            <div className="flex my-3">
-              <img src="../assets/Instagram_logo.svg" alt="Instagram_logo" />
-              <p className="mr-2">Instagram</p>
-            </div>
-            <div className="flex my-3">
-              <img src="../assets/LinkedIn_logo.svg" alt="LinkedIn_logo" />
-              <p className="mr-2">LinkedIn</p>
-            </div>
-            <div className="flex my-3">
-              <img src="../assets/YouTube_logo.svg" alt="YouTube_logo" />
-              <p className="mr-2">YouTube</p>
+            <div className="font-light ">
+              <button className="flex my-3">
+                <img src="../assets/Facebook_logo.svg" alt="Facebook_logo" />
+                <p className="mr-2">Facebook</p>
+              </button>
+              <button className="flex my-3">
+                <img src="../assets/Twitter_logo.svg" alt="Twitter_logo" />
+                <p className="mr-2">Twitter</p>
+              </button>
+              <button className="flex my-3">
+                <img src="../assets/Instagram_logo.svg" alt="Instagram_logo" />
+                <p className="mr-2">Instagram</p>
+              </button>
+              <button className="flex my-3">
+                <img src="../assets/LinkedIn_logo.svg" alt="LinkedIn_logo" />
+                <p className="mr-2">LinkedIn</p>
+              </button>
+              <button className="flex my-3">
+                <img src="../assets/YouTube_logo.svg" alt="YouTube_logo" />
+                <p className="mr-2">YouTube</p>
+              </button>
             </div>
           </div>
         </div>
