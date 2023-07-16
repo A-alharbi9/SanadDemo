@@ -5,7 +5,7 @@ function Footer() {
         <div className="flex w-[80%]">
           <div className="flex flex-col flex-grow-[3]">
             <p className="mb-4 font-bold">الصفحات</p>
-            <div className="flex font-light">
+            <div className="flex text-sm font-light lg:text-base">
               <ul className="flex-1">
                 <li>
                   <button className="cursor-pointer">الصفحة الرئيسية</button>
@@ -29,7 +29,7 @@ function Footer() {
                   <button className="cursor-pointer">التسجيل</button>
                 </li>
               </ul>
-              <ul className="flex-1 ">
+              <ul className="flex-1">
                 <li>
                   <button className="cursor-pointer ">تسجيل الدخول</button>
                 </li>
@@ -56,7 +56,7 @@ function Footer() {
           </div>
           <div className="flex-1">
             <p className="mb-5 font-bold">تابعنا</p>
-            <div className="font-light ">
+            <div className="text-sm font-light lg:text-base">
               <button className="flex my-3">
                 <img src="../assets/Facebook_logo.svg" alt="Facebook_logo" />
                 <p className="mr-2">Facebook</p>
@@ -108,7 +108,7 @@ function Footer() {
           <img
             src="../assets/CMA.svg"
             alt="CMA_logo"
-            className="mt-2 lg:w-[10rem] lg:mr-2 w-52 lg:mt-0"
+            className="mt-2 mr-4 lg:w-[10rem] lg:mr-2 w-52 lg:mt-0"
           />
         </div>
       </div>

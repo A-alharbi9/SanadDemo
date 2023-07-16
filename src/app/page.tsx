@@ -24,7 +24,7 @@ export default function Home() {
         />
         <Jobinfo
           type="دوام كامل"
-          title="Senior sus engineer"
+          title="Senior Backend Developer"
           desc=" من ذوي الخبرة · 5-7 سنوات من الخبرة · تكنولوجيا المعلومات / تطوير
         البرمجيات · الهندسة - الاتصالات / التكنولوجيا · صافي · الإطار
         الصافي"
