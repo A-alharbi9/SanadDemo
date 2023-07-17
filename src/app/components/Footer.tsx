@@ -82,8 +82,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center overflow-hidden">
-        <div className="border-b border-[#253C64] w-[90%] pb-5">
+      <div className="flex flex-col items-center overflow-hidden w-[95%] sm:w-[90%] lg:w-full">
+        <div className="flex flex-col items-center justify-center lg:justify-start border-b border-[#253C64] w-[90%] h-28 lg:h-auto pb-5">
           <p className="text-[#D0E1FF] text-xs lg:text-base opacity-95">
             الاستثمار أداء عالية المخاطر قد يتعرض لها المستثمرين تتعثر الجهة
             طالبة لتمويل عند سداد التزاماتها أو فقدان راس مال المستثمر، لذا تعمل
@@ -92,7 +92,7 @@ function Footer() {
             المالية أو شركائها أو موظفيها مسؤولية أي نوع من الخسائر المالية.
           </p>
         </div>
-        <div className="flex flex-row items-center justify-around mb-2 w-[95%] lg:w-[90%] py-2">
+        <div className="flex flex-row items-center justify-around mb-2 w-[95%] lg:w-[90%] mx-2 lg:mx-0 py-2">
           <div className="">
             <img
               src="../assets/white_logo.svg"
@@ -114,7 +114,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center h-20">
-          <p className="text-base text-[#B3BBD0] mx-2 lg:mx-0">
+          <p className=" text-xs lg:text-base text-[#B3BBD0] mx-2 lg:mx-0">
             Copyright &copy; Sanad Capital Company
           </p>
         </div>
