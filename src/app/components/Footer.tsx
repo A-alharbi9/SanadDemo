@@ -97,19 +97,19 @@ function Footer() {
             <img
               src="../assets/white_logo.svg"
               alt="logo"
-              className="w-36 lg:w-52 "
+              className="w-28 lg:w-52 "
             />
           </div>
           <div className="flex items-center lg:justify-center lg:w-auto">
             <img
               src="../assets/review_bureau.svg"
               alt="review_bureau_logo"
-              className="w-10 h-10 lg:w-14 lg:h-20 "
+              className="w-8 h-8 lg:w-14 lg:h-20 "
             />
             <img
               src="../assets/CMA.svg"
               alt="CMA_logo"
-              className="mt-2 mr-4 lg:w-[15rem] w-48 lg:mt-0"
+              className="mt-2 mr-4 lg:w-[15rem] w-28 lg:mt-0"
             />
           </div>
         </div>
