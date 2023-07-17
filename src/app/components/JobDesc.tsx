@@ -1,7 +1,7 @@
 function JobDesc() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="flex  justify-between items-center w-[90%] lg:w-[80%] h-[35rem] lg:h-[26rem] border-b border-slate-200">
+      <div className="flex  justify-between items-center w-[90%] lg:w-[80%] h-[32rem] lg:h-[26rem] border-b border-slate-900">
         <p className="w-5 text-2xl font-bold lg:text-4xl">موجز الوظيفة</p>
         <div className="w-[60%]">
           <p>
@@ -16,7 +16,7 @@ function JobDesc() {
           </p>
         </div>
       </div>
-      <div className="flex justify-between items-center w-[90%] lg:w-[80%] h-[55rem] lg:h-[24rem] border-b border-slate-200">
+      <div className="flex justify-between items-center w-[90%] lg:w-[80%] h-[44rem] lg:h-[24rem] border-b border-slate-900">
         <p className="text-xl font-bold lg:text-4xl">المسؤوليات</p>
         <div className="w-[60%]">
           <ul className="list-disc">
@@ -48,7 +48,7 @@ function JobDesc() {
           </ul>
         </div>
       </div>
-      <div className="flex  justify-between items-center w-[90%] lg:w-[80%] h-[35rem] lg:h-[24rem] border-b border-slate-200">
+      <div className="flex  justify-between items-center w-[90%] lg:w-[90%] h-[25rem] lg:h-[24rem] border-b border-slate-900">
         <p className="text-2xl font-bold lg:text-4xl">المتطلبات والمهارات</p>
         <div className="flex-col w-[60%]">
           <ul className="list-disc">

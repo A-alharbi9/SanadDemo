@@ -1,5 +1,4 @@
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import Hero from './components/Hero';
 import JobDesc from './components/JobDesc';
 import Jobinfo from './components/JobInfo';
@@ -33,7 +32,6 @@ export default function Home() {
         />
       </JobSuggest>
       <Contact />
-      <Footer />
     </>
   );
 }

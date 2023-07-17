@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <div className="py-3 bg-blue-700">
+    <div className="py-3 bg-[#0249AC]">
       <nav className="flex items-center justify-around w-full py-2">
         <div>
           <button className="cursor-pointer ">
@@ -14,31 +14,43 @@ function Nav() {
         <div className="flex-col hidden py-3 text-white lg:flex ">
           <ul className="flex items-center">
             <li className="mx-4">
-              <button className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium">
+              <a
+                href="/"
+                className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium"
+              >
                 من نحن
-              </button>
+              </a>
             </li>
             <li className="mx-4">
-              <button className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium">
+              <a
+                href="/"
+                className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium"
+              >
                 مستثمر
-              </button>
+              </a>
             </li>
             <li className="mx-4">
-              <button className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium">
+              <a
+                href="/"
+                className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium"
+              >
                 تمويل المنشأت
-              </button>
+              </a>
             </li>
             <li className="mx-4">
-              <button className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium">
+              <a
+                href="/"
+                className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium"
+              >
                 تواصل معنا
-              </button>
+              </a>
             </li>
             <li className="mx-4">
               <button className="transition duration-300 text-slate-200 hover:text-slate-50 hover:font-medium">
                 الأسئلة الشائعة
               </button>
             </li>
-            <button className="px-2 py-2 text-slate-100 bg-emerald-500 hover:bg-emerald-400 rounded-2xl">
+            <button className="w-36 h-12 text-slate-100 bg-[#4BB6AE] hover:bg-emerald-400 rounded-[5.5rem] hover:scale-105">
               تسجيل الدخول
             </button>
           </ul>
