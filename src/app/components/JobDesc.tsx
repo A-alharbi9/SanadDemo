@@ -1,9 +1,9 @@
 function JobDesc() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="flex  justify-between items-center w-[90%] lg:w-[80%] h-[32rem] lg:h-[26rem] border-b border-slate-900">
+      <div className="flex  justify-between items-center w-[90%] lg:w-[80%] min-h-[32rem] lg:min-h-[26rem] border-b border-slate-900">
         <p className="w-5 text-2xl font-bold lg:text-4xl">موجز الوظيفة</p>
-        <div className="w-[60%]">
+        <div className="w-[60%] py-5 sm:py-3 lg:py-0">
           <p>
             نحن نبحث عن مصمم UI / UX لتحويل برنامجنا إلى منتجات سهلة الاستخدام
             لعملائنا. تتضمن مسؤوليات UI / UX Designer جمع متطلبات المستخدم
@@ -16,9 +16,9 @@ function JobDesc() {
           </p>
         </div>
       </div>
-      <div className="flex justify-between items-center w-[90%] lg:w-[80%] h-[44rem] lg:h-[24rem] border-b border-slate-900">
+      <div className="flex justify-between items-center w-[90%] lg:w-[80%] min-h-[44rem] lg:min-h-[24rem] border-b border-slate-900">
         <p className="text-xl font-bold lg:text-4xl">المسؤوليات</p>
-        <div className="w-[60%]">
+        <div className="w-[60%] py-3 lg:py-0">
           <ul className="list-disc">
             <li>
               جمع وتقييم متطلبات المستخدم بالتعاون مع مديري المنتج والمهندسين
@@ -48,9 +48,9 @@ function JobDesc() {
           </ul>
         </div>
       </div>
-      <div className="flex  justify-between items-center w-[90%] lg:w-[90%] h-[25rem] lg:h-[24rem] border-b border-slate-900">
+      <div className="flex  justify-between items-center w-[90%] lg:w-[90%] min-h-[30rem] lg:min-h-[24rem] border-b border-slate-900 ">
         <p className="text-2xl font-bold lg:text-4xl">المتطلبات والمهارات</p>
-        <div className="flex-col w-[60%]">
+        <div className="flex-col w-[60%] min-h-[66%] py-[2rem] lg:py-0">
           <ul className="list-disc">
             <li>خبرة عمل مثبتة كمصمم UI / UX أو دور مماثل</li>
             <li>حافظة مشاريع التصميم</li>
