@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="flex flex-col items-center justify-around text-white bg-[#001943] min-h-[50rem] lg:min-h-[40rem] ">
+    <footer className="flex flex-col items-center justify-around text-white bg-[#001943] min-h-[50rem] lg:min-h-[40rem] -mt-1">
       <div className="flex flex-col items-start w-[80%] lg:w-[90%]">
         <div className="flex flex-col lg:flex-row justify-between w-full h-[37rem] lg:w-[85%] px-2">
           <div className="flex flex-col justify-around w-full lg:justify-center lg:w-auto">
