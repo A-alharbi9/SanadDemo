@@ -1,12 +1,18 @@
+import { BASE_FONT, BASE_FONT_LIGHT } from '../constants/pageFonts';
+
 function Footer() {
   return (
-    <footer className="flex flex-col items-center justify-around text-white bg-[#001943] min-h-[50rem] lg:min-h-[40rem] -mt-1">
-      <div className="flex flex-col items-start w-[80%] lg:w-[90%]">
-        <div className="flex flex-col lg:flex-row justify-between w-full h-[37rem] lg:w-[85%] px-2">
-          <div className="flex flex-col justify-around w-full lg:justify-center lg:w-auto">
-            <p className="mb-10 font-bold lg:text-xl">الصفحات</p>
-            <div className="flex justify-between text-lg lg:gap-x-[23rem] lg:h-[18rem]">
-              <ul className="flex flex-col justify-around lg:text-lg text-[#D0E1FF] opacity-95">
+    <footer
+      className={`${BASE_FONT.className} flex flex-col items-center justify-around text-white bg-[#001943] min-h-[50rem] lg:min-h-[40rem] -mt-1`}
+    >
+      <div className="flex flex-col items-start lg:items-center w-[min(95%,70rem)]">
+        <div className="flex flex-col lg:flex-row justify-evenly h-[37rem] w-[min(100%,70rem)] px-2 lg:px-0">
+          <div className="flex flex-col justify-around lg:justify-center">
+            <p className="mb-5 font-bold lg:text-xl">الصفحات</p>
+            <div
+              className={`${BASE_FONT_LIGHT.className} flex justify-between lg:justify-between lg:gap-x-[10rem] lg:h-[18rem] max-w-md lg:w-auto`}
+            >
+              <ul className="flex flex-col justify-around  text-[#D0E1FF] opacity-95">
                 <li>
                   <button className="cursor-pointer">الصفحة الرئيسية</button>
                 </li>
@@ -54,8 +60,10 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="flex flex-col lg:justify-center">
-            <p className="mb-5 text-xl font-bold">تابعنا</p>
+          <div className="flex flex-col lg:justify-center h-[90%]">
+            <p className="mt-[3rem] md:mt-8 lg:mt-0 mb-5 text-xl font-bold tracking-widest">
+              تابعنا
+            </p>
             <div className="flex flex-col justify-around text-lg text-[#D0E1FF] py-1 opacity-95">
               <button className="flex my-2">
                 <img src="../assets/Facebook_logo.svg" alt="Facebook_logo" />
@@ -82,9 +90,11 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center overflow-hidden w-[95%] sm:w-[90%] lg:w-full">
+      <div className="flex flex-col items-center w-[min(100%,83rem)]">
         <div className="flex flex-col items-center justify-center lg:justify-start border-b border-[#253C64] w-[90%] h-28 lg:h-auto pb-5">
-          <p className="text-[#D0E1FF] text-xs lg:text-base opacity-95">
+          <p
+            className={`${BASE_FONT_LIGHT.className} text-[#D0E1FF] text-xs lg:text-base opacity-95`}
+          >
             الاستثمار أداء عالية المخاطر قد يتعرض لها المستثمرين تتعثر الجهة
             طالبة لتمويل عند سداد التزاماتها أو فقدان راس مال المستثمر، لذا تعمل
             سند المالية على الحد من هذه المخاطر عبر الدارسة المفصلة والدقيقة
