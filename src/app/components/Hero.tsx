@@ -1,9 +1,14 @@
+import {
+  BASE_BG_COLOR,
+  BASE_BUTTON_COLOR,
+  BUTTON_HOVER_COLOR,
+} from '../constants/pageColors';
 import { BASE_FONT, BASE_FONT_LIGHT } from '../constants/pageFonts';
 
 function Hero() {
   return (
     <div
-      className={`${BASE_FONT.className} relative flex justify-center bg-[#0249AC] h-[37rem] lg:h-[38rem] rounded-br-[6rem] lg:rounded-br-[12rem] overflow-x-hidden`}
+      className={`${BASE_FONT.className} relative flex justify-center bg-[${BASE_BG_COLOR}] h-[37rem] lg:h-[38rem] rounded-br-[6rem] lg:rounded-br-[12rem] overflow-x-hidden`}
     >
       <img
         src="../assets/shape_group_two.svg"
@@ -31,7 +36,9 @@ function Hero() {
             الشاملة مع منتجاتهم أو خدماتهم تلبي النتائج المرجوة.
           </p>
 
-          <button className="w-[min(90%,11rem)] h-20 text-xl font-bold text-center rounded-full bg-[#4BB6AE] hover:bg-emerald-400 transition duration-300 hover:scale-105">
+          <button
+            className={`w-[min(90%,11rem)] h-20 text-xl font-bold text-center rounded-full bg-[${BASE_BUTTON_COLOR}] ${BUTTON_HOVER_COLOR} transition duration-300 hover:scale-105`}
+          >
             تقدم الآن
           </button>
         </div>

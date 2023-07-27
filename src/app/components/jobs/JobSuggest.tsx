@@ -1,4 +1,4 @@
-import { BASE_FONT } from '../constants/pageFonts';
+import { BASE_FONT } from '../../constants/pageFonts';
 
 function JobSuggest({ children }: { children: React.ReactNode }) {
   return (

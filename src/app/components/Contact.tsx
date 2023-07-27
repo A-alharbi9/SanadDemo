@@ -1,3 +1,4 @@
+import { BASE_BUTTON_COLOR, BUTTON_HOVER_COLOR } from '../constants/pageColors';
 import { BASE_FONT, BASE_FONT_MEDIUM } from '../constants/pageFonts';
 
 function Contact() {
@@ -13,7 +14,9 @@ function Contact() {
                 اتصل بنا اليوم للحصول على استشارة مجانية
               </p>
               <div className="flex flex-col h-40 md:flex-row justify-around lg:justify-start items-center w-[min(85%,85rem)] mt-2 lg:mt-[2.5rem]">
-                <button className=" text-center h-16 lg:ml-6 w-[min(90%,12rem)] bg-[#4BB6AE] hover:bg-emerald-400 lg:text-lg hover:text-white transition duration-300 hover:scale-105 rounded-[4rem]">
+                <button
+                  className={`text-center h-16 lg:ml-6 w-[min(90%,12rem)] bg-[${BASE_BUTTON_COLOR}] ${BUTTON_HOVER_COLOR} lg:text-lg hover:text-white transition duration-300 hover:scale-105 rounded-[4rem]`}
+                >
                   تواصل معنا
                 </button>
                 <button className="h-16 text-center border w-[min(90%,12rem)] border-white border-solid lg:text-lg transition duration-300 hover:scale-105 hover:bg-slate-200 hover:text-black rounded-[4rem] tracking-[0.15rem]">

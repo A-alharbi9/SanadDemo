@@ -1,9 +1,14 @@
+import {
+  BASE_BUTTON_COLOR,
+  BASE_BG_COLOR,
+  BUTTON_HOVER_COLOR,
+} from '../constants/pageColors';
 import { BASE_FONT } from '../constants/pageFonts';
 
 function Nav() {
   return (
     <div
-      className={`${BASE_FONT.className} flex flex-col items-center justify-center py-3.5 bg-[#0249AC] px-2`}
+      className={`${BASE_FONT.className} flex flex-col items-center justify-center py-3.5 bg-[${BASE_BG_COLOR}] px-2`}
     >
       <div className="flex flex-col items-center justify-around py-1 w-[min(90%,80rem)]">
         <nav className="flex items-center justify-center w-full md:justify-between">
@@ -55,7 +60,9 @@ function Nav() {
                   الأسئلة الشائعة
                 </button>
               </li>
-              <button className="w-36 h-12 text-slate-100 bg-[#4BB6AE] hover:bg-emerald-400 rounded-[5.5rem] hover:scale-105">
+              <button
+                className={`w-36 h-12 text-slate-100 bg-[${BASE_BUTTON_COLOR}] ${BUTTON_HOVER_COLOR} transition duration-200 rounded-[5.5rem] hover:scale-105`}
+              >
                 تسجيل الدخول
               </button>
             </ul>
