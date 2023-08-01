@@ -15,8 +15,8 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 function InvestOpportunity() {
   return (
-    <div className="flex flex-col items-center justify-around lg:mx-2 h-[60rem] lg:min-h-[80rem]">
-      <div className="flex flex-col items-center justify-around min-h-[48rem] w-[min(100%,80rem)]">
+    <div className="flex flex-col items-center justify-around lg:mx-2 h-[60rem] lg:min-h-[70rem]">
+      <div className="flex flex-col items-center justify-around min-h-[48rem] w-[min(100%,75rem)]">
         <div className="flex flex-col lg:flex-row justify-between items-center h-[15rem] lg:h-[12rem] w-[min(95%,80rem)]">
           <div className="">
             <h3
@@ -30,14 +30,13 @@ function InvestOpportunity() {
           </div>
           <div className="flex justify-around w-[95%] sm:w-[70%] lg:w-48">
             <button
-              className={`flex flex-col items-center justify-center h-20 w-20 rounded-[50%] text-[#001943] hover:text-slate-50 ${BUTTON_HOVER_COLOR} transition duration-200 rounded-3xl bg-[#D0E1FF] text-2xl`}
+              className={`flex flex-col items-center justify-center h-20 w-20 rounded-[70%] text-[#001943] hover:text-slate-50 ${BUTTON_HOVER_COLOR} transition duration-200 rounded-3xl bg-[#D0E1FF] text-2xl`}
               id="prevBtn"
             >
               <FaArrowRight size={30} />
             </button>
             <button
-              min-
-              className={`flex flex-col items-center justify-center h-20 w-20 rounded-[50%] text-[#0045bb] hover:text-slate-50 ${BUTTON_HOVER_COLOR} transition duration-200 rounded-3xl bg-[#D0E1FF] text-2xl`}
+              className={`flex flex-col items-center justify-center h-20 w-20 rounded-[70%] text-[#0045bb] hover:text-slate-50 ${BUTTON_HOVER_COLOR} transition duration-200 rounded-3xl bg-[#D0E1FF] text-2xl`}
               id="nextBtn"
             >
               <FaArrowLeft size={30} />
@@ -75,7 +74,7 @@ function InvestOpportunity() {
             <SwiperSlide className="lg:h-[20rem]">
               <div className="flex flex-col items-center justify-center w-full h-full">
                 <div
-                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem] w-[min(95%,22rem)] snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
+                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem]  snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
                 >
                   <div className="flex flex-col items-center justify-around h-[90%] w-[90%]">
                     <div className="flex justify-start w-full">
@@ -118,7 +117,7 @@ function InvestOpportunity() {
             <SwiperSlide className="flex justify-center items-center h-auto lg:h-[23rem]">
               <div className="flex flex-col items-center justify-center w-full h-full">
                 <div
-                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem] w-[min(95%,22rem)] snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
+                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem]  snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
                 >
                   <div className="flex flex-col items-center justify-around h-[90%] w-[90%]">
                     <div className="flex justify-start w-full">
@@ -161,7 +160,7 @@ function InvestOpportunity() {
             <SwiperSlide className="flex justify-center items-center h-auto lg:h-[23rem]">
               <div className="flex flex-col items-center justify-center w-full h-full">
                 <div
-                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem] w-[min(95%,22rem)] snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
+                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem]  snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
                 >
                   <div className="flex flex-col items-center justify-around h-[90%] w-[90%]">
                     <div className="flex justify-start w-full">
@@ -204,7 +203,7 @@ function InvestOpportunity() {
             <SwiperSlide className="flex justify-center items-center h-auto lg:h-[23rem]">
               <div className="flex flex-col items-center justify-center w-full h-full">
                 <div
-                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem] w-[min(95%,22rem)] snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
+                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem]  snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
                 >
                   <div className="flex flex-col items-center justify-around h-[90%] w-[90%]">
                     <div className="flex justify-start w-full">
@@ -247,7 +246,7 @@ function InvestOpportunity() {
             <SwiperSlide className="flex justify-center items-center h-auto lg:h-[23rem]">
               <div className="flex flex-col items-center justify-center w-full h-full">
                 <div
-                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem] w-[min(95%,22rem)] snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
+                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem]  snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
                 >
                   <div className="flex flex-col items-center justify-around h-[90%] w-[90%]">
                     <div className="flex justify-start w-full">
@@ -290,7 +289,7 @@ function InvestOpportunity() {
             <SwiperSlide className="flex justify-center items-center h-auto lg:h-[23rem]">
               <div className="flex flex-col items-center justify-center w-full h-full">
                 <div
-                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem] w-[min(95%,22rem)] snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
+                  className={`flex flex-col items-center justify-center min-h-[28rem] lg:h-[25rem]  snap-start md:mx-4 py-3 bg-[${BASE_BG_COLOR}] text-white rounded-t-3xl rounded-br-3xl`}
                 >
                   <div className="flex flex-col items-center justify-around h-[90%] w-[90%]">
                     <div className="flex justify-start w-full">

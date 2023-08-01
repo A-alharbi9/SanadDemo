@@ -1,3 +1,6 @@
+'use client';
+
+import { useInView } from 'react-intersection-observer';
 import {
   BASE_BG_COLOR,
   BASE_BUTTON_COLOR,
@@ -6,6 +9,11 @@ import {
 import { BASE_FONT, BASE_FONT_MEDIUM } from '../../constants/pageFonts';
 
 function Hero() {
+  const { ref, entry } = useInView({
+    threshold: 0.5,
+    triggerOnce: true,
+  });
+
   return (
     <div
       className={`${BASE_FONT.className} relative flex justify-center bg-[${BASE_BG_COLOR}] h-[37rem] lg:h-[38rem] rounded-br-[6rem] lg:rounded-br-[12rem] overflow-x-hidden`}
@@ -20,7 +28,12 @@ function Hero() {
         alt="shape_group_one"
         className="absolute -rotate-45 transform scale-x-[-1] -right-40 top-28 opacity-40 lg:opacity-100"
       />
-      <div className="flex flex-col items-center justify-center text-white h-[90%] lg:h-[90%] z-10">
+      <div
+        ref={ref}
+        className={`flex flex-col items-center justify-center text-white h-[90%] lg:h-[90%] z-10 transition duration-200 ${
+          entry?.isIntersecting ? 'opacity-100 scale-100' : 'opacity-50 scale-0'
+        }`}
+      >
         <div className="flex flex-col items-center justify-center text-center h-[30rem] lg:h-full">
           <h1
             className={`${BASE_FONT_MEDIUM} text-5xl md:text-6xl lg:text-[4rem]/[5rem] text- w-[min(90%,40rem)] font-medium`}
