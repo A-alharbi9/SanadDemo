@@ -58,7 +58,7 @@ function InvestJoin() {
           </div>
           <div className="flex flex-col items-center justify-center bg-[#063C88] h-[18rem] lg:h-[17rem] lg:w-[18rem] xl:w-[20rem] mb-8 lg:mb-0 rounded-b-[3rem] rounded-tl-[3rem] text-center">
             <p className="font-bold text-5xl lg:text-[2.5rem] mb-1">
-              تمويل مرتفع{' '}
+              تمويل مرتفع
             </p>
             <p className={`${BASE_FONT_LIGHT.className} w-[80%] text-xl`}>
               يصل لـ 30 مليون ريال، ويتم الرد في غضون 5 أيام عمل
